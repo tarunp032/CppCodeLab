@@ -5,6 +5,8 @@
 #include <unordered_set>
 #include <string>
 
+//The Alien Dictionary problem involves determining whether a given order of words is valid according to an imaginary dictionary, and if so, returning a possible order for the letters used.
+
 void alienOrder(const std::vector<std::string>& words) {
     std::unordered_map<char, std::unordered_set<char>> adjList;
     std::unordered_map<char, int> inDegree;
